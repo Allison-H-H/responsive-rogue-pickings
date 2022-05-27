@@ -29,6 +29,7 @@ h3 {
 	font-weight: 700;
 }
 h1 {
+	border-bottom: 3px solid #77a466;
 	font-size: 1.875em;
 }
 h2 {
@@ -48,7 +49,6 @@ p {
 header {
 	/*height: 110px;*/
 	align-items: center;
-	border-bottom: 3px solid #77a466;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
@@ -115,7 +115,7 @@ header nav ul li a{
 .main-title p {
 	padding: 0;
 	font-size: 1em;
-	line-height: 25px;
+	line-height: 1.563em;
 }
 
 .section-one,
@@ -152,12 +152,12 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 1em;
-	line-height: 21px;
+	line-height: 1.313em;
 }
 
 .address {
 	font-size: 1em;
-	line-height: 24px;
+	line-height: 1.5em;
 }
 
 /*The widths are in a percentage!*/
@@ -175,4 +175,22 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .875em;
+}
+
+
+/**** Breakpoints ****/
+@media all and (min-width:768px) {
+	/* Tablet styles here */
+	.bottom section {}
+
+	.secton-one {}
+
+	.section-two {}
+
+	.section-three {}
+}
+
+@media all and (min-width:1200px) {
+	/* Desktop styles here */
+
 }
