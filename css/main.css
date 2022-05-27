@@ -1,8 +1,14 @@
 body {
+	align-items: center;
+	display: flex;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	justify-content: center;
 }
 
-.container{
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -33,7 +39,10 @@ p {
 /*The widths are in a percentage!*/
 header {
 	/*height: 110px;*/
+	align-items: center;
 	border-bottom: 3px solid #77a466;
+	display: center;
+	justify-content: center;
 	margin: 0 auto;
 }
 
@@ -67,8 +76,10 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
+	align-items: center;
+	display: center;
+	justify-content: center;
 	margin: 0 auto;
-
 }
 
 .main-image {
@@ -138,7 +149,10 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 footer {
 	/*height: 50px;*/
+	align-items: center;
+	display: center;
 	border-top: 3px solid #eee;
+	justify-content: center;
 	margin: 0 auto;
 	text-align: center;
 }
