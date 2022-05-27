@@ -6,6 +6,7 @@ body {
 	align-items: center;
 	display: flex;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	flex-flow: row wrap;
 	font-size: 1em;
 	justify-content: center;
 }
@@ -13,9 +14,11 @@ body {
 .container {
 	align-items: center;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	max-width: 1200px;
 	margin: 0 auto;
+	width: 90%;
 }
 
 h1,
@@ -38,7 +41,7 @@ h3 {
 p {
 	font-size: .875em;
 	line-height: 1.313em;
-    padding: 0 30px;
+    /*padding: 0 30px;*/
 }
 
 /*The widths are in a percentage!*/
@@ -47,31 +50,36 @@ header {
 	align-items: center;
 	border-bottom: 3px solid #77a466;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 	margin: 0 auto;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 20px 10px;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	padding: 46px 0;
+	padding: 20px 0;
 }
 header nav ul {
 	margin: 0;
 	padding: 0;
 }
 header nav ul li {
+	align-items: center;
+	display: flex;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 0 10px;
-	display: inline;
+	flex-flow: row wrap;
+	justify-content: center;
+	padding: 10px 0;
+	/*display: inline;*/
 }
 header nav ul li a{
 	text-decoration: none;
@@ -83,7 +91,8 @@ header nav ul li a{
 .bottom-section {
 	align-items: center;
 	display: flex;
-	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: flex-start;
 	margin: 0 auto;
 }
 
@@ -112,7 +121,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	/*width: 33%;*/
 	height: auto;
 	border-top: 1px solid #eee;
 }
@@ -122,13 +131,13 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	/*border-left: 1px solid #eee;
+	border-right: 1px solid #eee;*/
 }
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	/*padding: 10px 30px;*/
 }
 
 .menu {
