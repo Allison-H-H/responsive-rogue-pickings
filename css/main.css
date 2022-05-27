@@ -1,7 +1,12 @@
+html {
+	font-size: 16px;
+}
+
 body {
 	align-items: center;
 	display: flex;
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
 	justify-content: center;
 }
 
@@ -21,18 +26,18 @@ h3 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 30px;
+	font-size: 1.875em;
 }
 h2 {
-	font-size: 18px;
+	font-size: 1.125em;
 }
 h3 {
-	font-size: 12px;
+	font-size: .75em;
 }
 
 p {
-	font-size: 14px;
-	line-height: 21px;
+	font-size: .875em;
+	line-height: 1.313em;
     padding: 0 30px;
 }
 
@@ -41,7 +46,7 @@ header {
 	/*height: 110px;*/
 	align-items: center;
 	border-bottom: 3px solid #77a466;
-	display: center;
+	display: flex;
 	justify-content: center;
 	margin: 0 auto;
 }
@@ -64,7 +69,7 @@ header nav ul {
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: .875em;
 	padding: 0 10px;
 	display: inline;
 }
@@ -77,7 +82,7 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	align-items: center;
-	display: center;
+	display: flex;
 	justify-content: center;
 	margin: 0 auto;
 }
@@ -100,7 +105,7 @@ header nav ul li a{
 }
 .main-title p {
 	padding: 0;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 25px;
 }
 
@@ -137,12 +142,12 @@ header nav ul li a{
 
 .reviews {
 	color: #333;
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 21px;
 }
 
 .address {
-	font-size: 16px;
+	font-size: 1em;
 	line-height: 24px;
 }
 
@@ -150,7 +155,7 @@ header nav ul li a{
 footer {
 	/*height: 50px;*/
 	align-items: center;
-	display: center;
+	display: flex;
 	border-top: 3px solid #eee;
 	justify-content: center;
 	margin: 0 auto;
@@ -160,5 +165,5 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 14px;
+	font-size: .875em;
 }
